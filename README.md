@@ -1,5 +1,13 @@
 # DJITelloPy
-DJI Tello drone python interface using the official [Tello SDK](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf) and [Tello EDU SDK](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf). This library has the following features:
+DJI Tello drone Python interface using the official APIs documented by Ryze Robitics
+[Tello SDK](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf) and
+[Tello EDU SDK](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf).
+The [Python Tello SDK provided by DJI](https://github.com/dji-sdk/Tello-Python)
+is written in Python 2. Python 2 has been sunset by the
+[Python Software Foundation](https://www.python.org/doc/sunset-python-2/),
+so do not expect this code to work with Python 2.7.
+
+This library has the following features:
 
 - implementation of all tello commands
 - easily retrieve a video stream
